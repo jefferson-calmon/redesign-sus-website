@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <!-- Primary Meta Tags -->
+    <title>SUS | Ministério da Saúde</title>
+    <meta charset="utf-8" />
+    <link rel="icon" href="https://www.gov.br/saude/++theme++padrao_govbr/favicons/favicon-32x32.png" />
+    <meta name="theme-color" content="#fff" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="SUS | Ministério da Saúde">
+    <meta name="description" content="Portal oficial do Ministério da Saúde, aqui você poderá encontrar artigos, notícias, tirar suas dúvidas e muito mais.">
+    <meta name="keywords"
+        content="sus, ministério da saúde" />
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="Ministério da Saúde" />
+    <meta name="copyright" content="Ministério da Saúde" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.gov.br/saude/pt-br">
+    <meta property="og:title" content="SUS | Ministério da Saúde">
+    <meta property="og:description" content="Portal oficial do Ministério da Saúde, aqui você poderá encontrar artigos, notícias, tirar suas dúvidas e muito mais.">
+    <meta property="og:image" content="/assets/og-image.png">
+    
+    <!-- Apple -->
+    <link rel="apple-touch-icon" href="https://www.gov.br/saude/++theme++padrao_govbr/favicons/apple-touch-icon.png">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.gov.br/saude/pt-br">
+    <meta property="twitter:title" content="SUS | Ministério da Saúde">
+    <meta property="twitter:description" content="Portal oficial do Ministério da Saúde, aqui você poderá encontrar artigos, notícias, tirar suas dúvidas e muito mais.">
+    <meta property="twitter:image" content="/assets/og-image.png">
+    
+    <link rel="canonical" href="https://www.gov.br/saude/pt-br" />
+
+
+    <!-- Styles -->
+    <link rel="stylesheet preload" as="style" href="./css/swiper.min.css">
+    <link rel="stylesheet preload" as="style" href="/css/styles.css">
+
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet preload" as="style">
+
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet preload" as="style" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <!-- Scripts -->
+    <script src="./js/scripts.js"></script>
+</head>
+<body id="body">
+    <header>
+        <div class="content">
+            <h1>
+                <a href="/">
+                    <img src="/assets/logo.png" alt="Portal do Ministério da Saúde">
+                </a>
+            </h1>
+
+            <nav id="navigation">
+                <ul>
+                    <li>
+                        <a href="#content">
+                            <span>Serviços</span>
+                            <i class="fa fa-crevron-down"></i>
+                            <div class="dropdown"></div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#content">
+                            <span>Notícias</span>
+                            <i class="fa fa-crevron-down"></i>
+                            <div class="dropdown"></div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#content">
+                            <span>Conteúdo</span>
+                            <i class="fa fa-crevron-down"></i>
+                            <div class="dropdown"></div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#content">
+                            <span>Suporte</span>
+                            <i class="fa fa-crevron-down"></i>
+                            <div class="dropdown"></div>
+                        </a>
+                    </li>
+                </ul>
+
+                <a class="signin mobile" href="http://solicitacao.servicos.gov.br/" class="signin">
+                    <i class="fas fa-user"></i>
+                    <span>Entrar</span>
+                </a>
+
+            </nav>
+
+            <a href="http://solicitacao.servicos.gov.br/" class="signin">
+                <i class="fas fa-user"></i>
+                <span>Entrar</span>
+            </a>
+
+            <div id="toggle" onclick="toggleElementsById(['toggle', 'navigation', 'body'])">
+                <div class="line one"></div>
+                <div class="line two"></div>
+                <div class="line three"></div>
+            </div>
+        </div>
+    </header>
+    
+    <section id="banner">
+        <div class="shadow"></div>
+        <div class="content">
+            <div class="text-title">
+                <!-- <h1>Ministério da saúde, Governo Federal</h1> -->
+                <h1>Estamos sempre buscando inovações e melhorias na área da sáude no Brasil.</h1>
+            </div>
+
+            <form action="https://www.gov.br/saude/pt-br/@@search" class="input-box">
+                <input type="search" name="SearchableText" placeholder="Busque notícias, conteúdos e novidades dentro do site" required>
+
+                <button type="submit">
+                    <i class="fas fa-search"></i>
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <section id="news">
+        <div class="content">
+            <h1><span class="colorize">Notícias</span> Recentes</h1>
+            <p>Veja aqui as nossas mais recentes e principais notícias, fique por dentro de tudo que acontece.</p>
+
+            
+            <!-- Swiper -->
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <a href="#">
+                        <img src="./assets/news/news-1.jpeg" alt="Sus | Ministério da Saúde" >
+                        <div class="text">
+                            <h2>“Todas as vacinas que estão no Instituto Butantan serão incorporadas ao PNI”, anuncia Pazuello</h2>
+                        </div>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#">
+                        <img src="./assets/news/news-2.jpeg" alt="Sus | Ministério da Saúde" >
+                        <div class="text">
+                            <h2>Presidente da República e ministro Eduardo Pazuello apresentam plano de vacinação contra a Covid-19</h2>
+                        </div>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#">
+                        <img src="./assets/news/news-3.jpeg" alt="Sus | Ministério da Saúde" >
+                        <div class="text">
+                            <h2>Saúde reafirma compromisso de enfrentamento à Covid-19 em visita ao Amazonas</h2>
+                        </div>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#">
+                        <img src="./assets/news/news-4.jpg" alt="Sus | Ministério da Saúde" >
+                        <div class="text">
+                            <h2>Ministério da Saúde divulga dados epidemiológicos da Covid-19 no Brasil</h2>
+                        </div>
+                    </a>
+                </div>
+                <div class="swiper-slide see-more">
+                    <a href="#">
+                        <i class="far fa-hand-point-up"></i>
+                        <h2>Clique aqui para ver mais notícias</h2>
+                    </a>
+                </div>
+
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- Add Arrows -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="covid">
+        <div class="shadow"></div>
+        <div class="content">
+            <h1>Estado do <span class="colorize red">Covid-19</span> no Brasil</h1>
+            
+            <div class="grid-data">
+                <div class="box-data">
+                    <h2>+7.96mi</h2>
+                    <span>Total de casos</span>
+                </div>
+                <div class="box-data">
+                    <h2>+7.08mi</h2>
+                    <span>Recuperados</span>
+                </div>
+                <div class="box-data">
+                    <h2>+200K</h2>
+                    <span>Mortes</span>
+                </div>
+                <div class="box-data">
+                    <h2>+649K</h2>
+                    <span>Suspeitos</span>
+                </div>
+            </div>
+
+            <a href="https://susanalitico.saude.gov.br/extensions/covid-19_html/covid-19_html.html" target="_blank" rel="noopener noreferrer">Ver mais dados</a>
+        </div>
+    </section>
+
+    <section id="actions">
+        <div class="content">
+            <h1>Rápido <span class="colorize">acesso</span></h1>
+            <p>Veja abaixo os links mais acessados de fácil acesso para as principais ações disponíveis.</p>
+
+            <div class="grid-actions">
+                <h2>Saúde</h2>
+                <div>
+                    <a href="#" class="action">
+                        <i class="fas fa-heartbeat"></i>
+                        <span>Saúde Brasil</span>
+                    </a>
+                    <a href="#" class="action">
+                        <i class="fas fa-laptop-medical"></i>
+                        <span>Localiza SUS</span>
+                    </a>
+                    <a href="#" class="action">
+                        <i class="fas fa-book-medical"></i>
+                        <span>Boletins Epidemiológicos</span>
+                    </a>
+                    <a href="#" class="action">
+                        <i class="fas fa-sort-alpha-down"></i>
+                        <span>Saúde de A à Z</span>
+                    </a>
+                </div>
+
+                <h2>Contato</h2>
+                <div>
+                    <a href="#" class="action">
+                        <i class="fas fa-comments"></i>
+                        <span>FAlA.BR - Ouvidorias</span>
+                    </a>
+                    <a href="#" class="action">
+                        <i class="fas fa-comment-medical"></i>
+                        <span>Ouvidoria do SUS</span>
+                    </a>
+                    <a href="#" class="action">
+                        <i class="fas fa-users-medical"></i>
+                        <span>Atendimento ao cidadão</span>
+                    </a>
+                    <a href="#" class="action">
+                        <i class="fas fa-bullhorn"></i>
+                        <span>Acessoria de imprensa</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="disk-saude"></section>
+    
+    <footer id="bottom">
+        <div class="content">
+            <div class="brand">
+                <img src="https://www.gov.br/saude/++theme++padrao_govbr/img/govbr.png" alt="SUS - Ministério da saúde">
+                <h2>
+                    Governo Federal
+                    <br>    
+                    Ministério da Saúde
+                </h2>
+            </div>
+            <div>
+                <h2>Redes Sociais</h2>
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">Twitter</a>
+                <a href="#">YouTube</a>
+                <a href="#">Soundclound</a>
+                <a href="#">Flickr</a>
+            </div>
+            <div>
+                <h2>Suporte</h2>
+                <a href="#">Fala.BR - Ouvidorias</a>
+                <a href="#">Ouvidoria do SUS</a>
+                <a href="#">Aten. ao Cidadão</a>
+                <a href="#">Acessoria de imprensa</a>
+            </div>
+            <div>
+                <h2>Coronavírus</h2>
+                <a href="#">Centrais de conteúdo</a>
+                <a href="#">Perguntas e Respostas</a>
+                <a href="#">Portal Covid-19</a>
+                <a href="#">Covid-19 no Brasil</a>
+                <a href="#">Vacinas</a>
+            </div>
+            <div>
+                <h2>Informação</h2>
+                <a href="#">Institucional</a>
+                <a href="#">Auditorias</a>
+                <a href="#">Servidores</a>
+                <a href="#">Concursos e seleções</a>
+                <a href="#">Agencia saúde</a>
+                <a href="#">Receitas e despesas</a>
+            </div>
+
+        </div>
+
+        <div class="copyright">
+            <div class="content">
+                <p>
+                    © 2020 Ministério da Saúde | Licença 
+                    <a href="https://creativecommons.org/licenses/by-nd/3.0/deed.pt_BR" target="_blank" rel="noopener noreferrer"> 
+                        Creative Commons Atribuição-SemDerivações 3.0 Não Adaptada.
+                    </a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Swiper -->
+    <script src="./js/swiper.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            slidesPerView: 2.5,
+            spaceBetween: 30,
+            slidesPerGroup: 1,
+            // centeredSlides: true,
+            grabCursor: true,
+            keyboard: {
+                enabled: true,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
+</body>
+</html>
